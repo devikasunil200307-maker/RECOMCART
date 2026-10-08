@@ -7,7 +7,7 @@ customers (by customer ID) and for brand-new customers (by describing their tast
 | | Link |
 |---|---|
 | CODE | https://github.com/devikasunil200307-maker/RECOMCART |
-| DRIVE LINK| https://docs.google.com/document/d/1YG6v2O_2quhb8rPw3uTIZlNz1x-3E8SS/edit?usp=sharing&ouid=110517087794319070501&rtpof=true&sd=true|
+| APP LINK| https://recomcart-shopping.streamlit.app/|
 
 ## Problem
 
