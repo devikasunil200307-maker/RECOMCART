@@ -6,9 +6,9 @@ customers (by customer ID) and for brand-new customers (by describing their tast
 
 | | Link |
 |---|---|
-| 💻 Code | https://github.com/YOUR-USERNAME/shopping-recommender |
+| 💻 Code | https://github.com/devikasunil200307-maker/RECOMCART |
 | 📄 Report | [REPORT.md](REPORT.md) |
-| 🚀 Live demo | https://YOUR-APP-NAME.streamlit.app |
+| 🚀 Live demo | https://RECOMCART.streamlit.app |
 
 ## Problem
 
@@ -27,7 +27,7 @@ The goal is to recommend products a customer is likely to buy.
 ## Project structure
 
 ```
-shopping-recommender/
+RECOMCART/
 ├── shopping.py          # main pipeline: clean -> features -> train -> evaluate -> recommend (+ CLI)
 ├── app.py               # Streamlit web app (deployment)
 ├── make_data.py         # generates the messy synthetic dataset
@@ -87,7 +87,7 @@ a recommender needs. See [REPORT.md](REPORT.md) for the discussion and limitatio
 ## Run it locally
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/shopping-recommender.git
+git clone https://github.com/devikasunil200307-maker/RECOM.git
 cd shopping-recommender
 python -m pip install -r requirements.txt
 
