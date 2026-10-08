@@ -61,10 +61,6 @@ Columns: `customer_id, product_id, category, price, views, cart_adds, purchases,
 | `cust_cat_share` | Share of the customer's views in this product's category |
 | `category` (one-hot) | Product category |
 
-> The pair's own `views`/`cart_adds` are deliberately **not** used as inputs: a purchase is impossible
-> without them, so the model would only learn "carted → bought" and would fail for unseen products and new customers.
-
-**Model:** `RandomForestClassifier(n_estimators=200)`, 80/20 stratified train/test split.
 
 **New customers** are described by favourite categories, typical budget and previous purchases;
 unknown activity levels are set to the median customer.
