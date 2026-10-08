@@ -8,7 +8,6 @@ customers (by customer ID) and for brand-new customers (by describing their tast
 |---|---|
 | 💻 Code | https://github.com/devikasunil200307-maker/RECOMCART |
 | 📄 Report | [REPORT.md](REPORT.md) |
-| 🚀 Live demo | https://RECOMCART.streamlit.app |
 
 ## Problem
 
