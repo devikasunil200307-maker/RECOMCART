@@ -79,9 +79,7 @@ unknown activity levels are set to the median customer.
 | F1 | 0.404 |
 | ROC-AUC | 0.704 |
 
-Accuracy is misleading here because only ~20% of rows are purchases. ROC-AUC (0.70 vs 0.50 for
-random) is the better indicator: the model ranks likely buyers above non-buyers, which is what
-a recommender needs. See [REPORT.md](REPORT.md) for the discussion and limitations.
+Accuracy is misleading here because only ~20% of rows are purchases.
 
 ## Run it locally
 
@@ -92,7 +90,6 @@ python -m pip install -r requirements.txt
 
 python make_data.py        # optional: regenerates shopping_data.csv
 python shopping.py         # command-line version (asks for a customer ID or customer details)
-python -m streamlit run app.py   # web app
 ```
 
 Example (command line, new customer): choose `2`, categories `Sports,Toys`, budget `30`, previous purchases `2`.
