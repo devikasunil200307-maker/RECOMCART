@@ -69,28 +69,8 @@ Columns: `customer_id, product_id, category, price, views, cart_adds, purchases,
 **New customers** are described by favourite categories, typical budget and previous purchases;
 unknown activity levels are set to the median customer.
 
-## Results (hold-out test set, 1,801 rows, threshold 0.3)
 
-| Metric | Value |
-|---|---|
-| Accuracy | 0.782 (always-say-no baseline: 0.801) |
-| Precision | 0.359 |
-| Recall | 0.462 |
-| F1 | 0.404 |
-| ROC-AUC | 0.704 |
 
-Accuracy is misleading here because only ~20% of rows are purchases.
-
-## Run it locally
-
-```bash
-git clone https://github.com/devikasunil200307-maker/RECOM.git
-cd shopping-recommender
-python -m pip install -r requirements.txt
-
-python make_data.py        # optional: regenerates shopping_data.csv
-python shopping.py         # command-line version (asks for a customer ID or customer details)
-```
 
 Example (command line, new customer): choose `2`, categories `Sports,Toys`, budget `30`, previous purchases `2`.
 
