@@ -94,9 +94,4 @@ python shopping.py         # command-line version (asks for a customer ID or cus
 
 Example (command line, new customer): choose `2`, categories `Sports,Toys`, budget `30`, previous purchases `2`.
 
-## Limitations and future work
 
-- Synthetic data: results show the pipeline works, not real-world performance.
-- Add a ranking metric such as Precision@5 and compare against a popularity baseline.
-- Try gradient boosting and hyper-parameter tuning; calibrate the probabilities.
-- Use collaborative filtering or embeddings for richer personalisation.
