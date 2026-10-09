@@ -27,13 +27,12 @@ The goal is to recommend products a customer is likely to buy.
 
 ```
 RECOMCART/
-├── shopping.py          # main pipeline: clean -> features -> train -> evaluate -> recommend (+ CLI)
+├── README.md
 ├── app.py               # Streamlit web app (deployment)
 ├── make_data.py         # generates the messy synthetic dataset
-├── shopping_data.csv    # dataset (9,100 rows, intentionally dirty)
-├── requirements.txt     # Python dependencies
-├── REPORT.md            # full project report
-└── README.md
+├── requirements.txt     # Python dependencie
+├── shopping.py          # main pipeline: clean -> features -> train -> evaluate -> recommend (+ CLI)
+└── shopping_data.csv    # dataset (9,100 rows, intentionally dirty)
 ```
 
 ## Data
